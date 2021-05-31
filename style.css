@@ -1,0 +1,390 @@
+*{
+  font-family:Arial,sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  position: fixed;
+  background: #22242A;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+
+.left_area h3{
+  color: #fff;
+  margin: 0;
+  margin-left:50px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.left_area span{
+  color: #19B3D3;
+}
+
+.logout_btn{
+  padding: 5px;
+  text-decoration: none;
+  float: right;
+  margin-top: -30px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+  transition-property: background;
+}
+.logout_btn,.but{
+  background-color: darkcyan;
+}
+
+.logout_btn:hover{
+  background: #0B87A6;
+}
+
+.sidebar {
+  background: #2f323a;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+}
+
+.sidebar .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.sidebar h4{
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.sidebar a:hover{
+  background: #19B3D3;
+}
+
+.sidebar i{
+  padding-right: 10px;
+}
+
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 30px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+
+label #sidebar_btn:hover{
+  color: #19B3D3;
+}
+
+#check:checked ~ .sidebar{
+  left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+
+
+.content{
+  background-color:rgba(0,0,0,0.9);
+  background-image:url(phar.jpg);
+  background-blend-mode:multiply;
+  margin-left: 250px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+
+
+#check:checked ~ .content{
+  margin-left: 60px;
+}
+
+#check{
+  display: none;
+}
+.content{
+	padding-top:70px;
+  border:none;
+  }
+  /*doctor*/
+  #choose{
+    background-color: black ;
+    opacity: 60%;
+    color:gray;
+    padding:15px 10px;
+    margin-top:10px;
+    border:solid 1px gray;
+font-size:25px;
+  }
+  #choose option{
+    color:gray;
+  }
+  /*fp*/
+  *{
+    color:white;
+    }
+    .top{
+    height:30px;
+    }
+    #sup{
+  margin-left:85%;
+    }
+    .fcontain{
+    width:98%;
+
+  }
+    
+    .in{
+    background-color:black;
+    padding:15px;
+    border:solid 1px gray;
+    opacity:60%;
+    font-size:25px;
+    color:gray;
+    margin-bottom:5px;
+    }
+    .fbtn{
+      background-color:red;
+    }
+    .btn{
+      margin-top:10px;
+      width:85%;
+      padding:10px;
+      border:none;
+      border-radius:5px;
+      margin-bottom:5px;
+      font-size:20px;
+    }
+    #fbn{
+      width:25%;
+    }
+    
+    .use{
+    font-size:22px;
+    }
+    .one{
+    color:black;
+    }
+    .img{
+      margin-left:90px;
+      
+    }
+    .limg{
+      margin-left:60px;
+    }
+    .fab{
+    background-color:black;
+    }
+    
+    .but{
+      padding:9px 10px;
+      border-radius: 4px;
+      border: none;
+    }
+    .but a{
+      color:white;
+      font-weight: bold;
+    }
+    a{
+      text-decoration:none;
+    }
+    
+      /*Second page*/
+      .tin{
+        color:gray;
+        border:solid 1px gray;
+        padding-right:30px;
+        }
+        
+        .check{
+          font-size:20px;
+        }
+        .checksecond label{
+          padding-bottom:10px;
+        }
+        .checkthird{
+        margin-top:20px;
+        }
+        .ctl{
+          font-size:20px;
+        }
+        .reg{
+        padding:10px 20px;
+        margin-top:20px;
+        background-color:red;
+        color:white;
+        border:none;
+        border-radius:5px;
+        margin-bottom:20px;
+
+      }
+        .fcontain{
+          color:gray;
+         
+        }
+        #marg{
+          background-color:rgba(255,255,255,0.7);
+        background-image:url(phar.jpg);
+          background-blend-mode:screen;
+          width:83;
+          margin-left: 240px;
+          background-size: cover;
+          height:105vh;
+          transition: 0.5s;
+          color:black;
+          padding-left: 10px;
+          padding-right: 0px;
+          position:relative;
+          z-index:-2;
+        }
+       /* .content{
+          background-color:rgba(0,0,0,0.8);
+        background-image:url(phar.jpg);
+          background-blend-mode:multiply;
+          width:79%;
+          margin-left: 250px;
+          background-size: cover;
+          height:100vh;
+          transition: 0.5s;
+          padding-left: 10px;
+          padding-right: 10px;
+         
+        }*/
+        
+       /*drugs*/
+        .bor{
+          margin-left: 30px;
+          border-radius:20px;
+          background:black;
+          padding: 20px;
+          width: 90%;
+          height: 70px;
+          color:black;
+          
+        } 
+  #marg h2,#marg .about{
+    color:black;
+  }
+  .bor,.bor b{
+    color:white;
+  }
+  #marg h1 span{
+    color:black;
+    font-weight:bold;
+    font-size: 40px;
+  }
+  #marg h1{
+    text-align:center;
+    margin-bottom:75px;
+    margin-top:75px;
+  }
+  .middle{
+    background-color:white;
+    opacity:75%;
+    padding:20px;
+    position:relative;
+    z-index:-1;
+  }
+  .foot{
+    background-color: black;
+    padding: 20px;
+    width: 97%;
+  }
+  .foot,.foot h4,.foot center{
+    color: white;
+  }
+  #check:checked ~ #marg{
+    width:96%;
+  }
+  #doc{
+    height:120vh;
+  }
+  .exp label{
+    font-size:25px;
+    padding-left:10px;
+  }
+  .exp{
+    margin-top:20px;
+    margin-bottom:0;
+  }
+.ful li{
+display:inline;
+}
+#in2{
+
+  border:solid 1px gray;
+}
+.edit{
+  margin-right:15px;
+}
+#log{
+  height:100vh;
+  margin-left:0;
+  padding-top:0;
+}
+table,tr,td,th{
+  border:solid 2px white;
+  border-collapse:collapse;
+}
+
+.maintable tr td{
+text-align:center;
+padding:10px 20px;
+}
+.maintable th{
+  padding:7px;
+}
+.maintable{
+  width:90%;
+  margin-left:50px;
+}
+.vis:link{
+  background:gray;
+}
+.vis:visited{
+  background:black;
+  padding-left:60px;
+}
